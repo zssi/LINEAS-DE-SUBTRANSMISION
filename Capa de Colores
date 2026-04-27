@@ -53,7 +53,7 @@ function styleLine(feature) {
 
 
 // 🔹 📂 CARGAR GEOJSON DESDE GITHUB
-fetch('LINEAS_EEQ_PBI_COLORES.json')
+fetch('LINEAS_EEQ_PBI.json')
     .then(response => response.json())
     .then(data => {
 
